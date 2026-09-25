@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0 30%;
+    background-color: #030409;
+    min-height: 100vh;
+}
+
+header{
+    padding-top: 60px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+button{
+    font-size: 24px;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn.active{
+    color: #D47D19;
+}
+
+.content{
+    color: white;
+}
