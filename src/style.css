@@ -46,10 +46,6 @@ button{
     padding-top: 70px;
 }
 
-/* .home-content{
-    padding-top: 250px;
-} */
-
 .top{
     color: #D9D9D9;
 }
@@ -87,4 +83,40 @@ p{
     width: 450px;
     height: 600px;
     filter: drop-shadow(0 0 20px rgba(255, 204, 0, 0.8));
+}
+
+/* Menu Section */
+.cards{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    justify-content: center;
+}
+
+.card{
+    border: 1px solid #D47D19;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.img-card-menu{
+    width: 386px;
+    height: 311px;
+}
+
+p{
+    font-size: 40px;
+}
+
+.price{
+    font-size: 24px;
+}
+
+.btn-menu-card{
+    background-color: #D47D19;
+    border-radius: 30px;
+    padding: 10px 30px;
 }
