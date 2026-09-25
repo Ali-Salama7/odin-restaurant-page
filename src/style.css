@@ -10,6 +10,8 @@ body{
     min-height: 100vh;
 }
 
+/* Header Section */
+
 header{
     padding-top: 60px;
 }
@@ -34,4 +36,55 @@ button{
 
 .content{
     color: white;
+}
+
+/* HomePage Section */
+
+.home-container{
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+}
+
+/* .home-content{
+    padding-top: 250px;
+} */
+
+.top{
+    color: #D9D9D9;
+}
+
+h1{
+    font-size: 64px;
+}
+
+h3{
+    margin: 10px 0;
+    width: 550px;
+    font-size: 22px;
+}
+
+p{
+    margin: 26px 0;
+}
+
+.view-menu, .order-now{
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.view-menu{
+    margin-right: 85px;
+    border: 1px solid #D47D19;
+}
+
+.order-now{
+    background-color: #D47D19;
+}
+
+.home-image img{
+    width: 450px;
+    height: 600px;
+    filter: drop-shadow(0 0 20px rgba(255, 204, 0, 0.8));
 }

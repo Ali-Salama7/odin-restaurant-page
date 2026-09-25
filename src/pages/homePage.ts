@@ -1,3 +1,5 @@
+import burgerHome from "../assets/burger.png"
+
 const HomePage = () => {
     const homeContainer = document.createElement("div") as HTMLDivElement
     homeContainer.classList.add("home-container")
@@ -14,7 +16,9 @@ const HomePage = () => {
                 <button class="order-now">Order Now</button>
             </div>
         </div>
-        <div class="home-image"></div>
+        <div class="home-image">
+            <img src=${burgerHome} alt="Burger" />
+        </div>
     `
     
     return homeContainer
